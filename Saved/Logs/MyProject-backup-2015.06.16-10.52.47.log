@@ -1,0 +1,811 @@
+﻿Log file open, 06/16/15 09:31:37
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: F:/Unreal Engine/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.16-13.31.37:920][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.16-13.31.37:969][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.16-13.31.37:978][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.16-13.31.37:986][  0]LogInit: Object subsystem initialized
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.16-13.31.37:988][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-13.31.37:988][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.16-13.31.37:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.16-13.31.37:993][  0]LogInit: Computer: BACONMACHINE
+[2015.06.16-13.31.37:993][  0]LogInit: User: Tarek
+[2015.06.16-13.31.37:993][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.16-13.31.37:993][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.06.16-13.31.37:993][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx) Virtual=131072.0GB
+[2015.06.16-13.31.37:993][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.16-13.31.37:993][  0]LogMemory: Process Physical Memory: 46.04 MB used, 46.04 MB peak
+[2015.06.16-13.31.37:993][  0]LogMemory: Process Virtual Memory: 26.41 MB used, 26.42 MB peak
+[2015.06.16-13.31.37:993][  0]LogMemory: Physical Memory: 2381.27 MB used, 12205.48 MB total
+[2015.06.16-13.31.37:993][  0]LogMemory: Virtual Memory: 292.54 MB used, 134217728.00 MB total
+[2015.06.16-13.31.38:016][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M (Feature Level 11_0)
+[2015.06.16-13.31.38:016][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.06.16-13.31.38:017][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.16-13.31.38:017][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.16-13.31.38:017][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.16-13.31.38:067][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.16-13.31.38:077][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.16-13.31.38:518][  0]LogTextLocalizationManager: The requested culture ('en_CA') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.16-13.31.38:569][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (F:/Unreal Engine/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (F:/Unreal Engine/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.16-13.31.38:569][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (F:/Unreal Engine/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (F:/Unreal Engine/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.16-13.31.38:642][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.16-13.31.40:558][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-13.31.40:975][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-13.31.41:020][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.16-13.31.41:059][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Tarek/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.16-13.31.41:059][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tarek/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.16-13.31.41:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.16-13.31.41:060][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.16-13.31.41:166][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.16-13.31.41:178][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tarek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.16-13.31.41:412][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.16-13.31.41:412][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.16-13.31.41:759][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.16-13.31.41:813][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.16-13.31.42:460][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.16-13.31.42:611][  0]SourceControl: Info Source control is disabled
+[2015.06.16-13.31.42:612][  0]SourceControl: Info Source control is disabled
+[2015.06.16-13.31.42:612][  0]SourceControl: Info Source control is disabled
+[2015.06.16-13.31.42:612][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.16-13.31.42:612][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.16-13.31.42:617][  0]SourceControl: Info Source control is disabled
+[2015.06.16-13.31.42:741][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.16-13.31.42:741][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.16-13.31.42:809][  0]LogEngine: Initializing Engine...
+[2015.06.16-13.31.44:984][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.16-13.31.45:101][  0]LogInit: FAudioDevice initialized.
+[2015.06.16-13.31.45:125][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.16-13.31.45:146][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Tarek/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.16-13.31.45:150][  0]LogInit: Texture streaming: Enabled
+[2015.06.16-13.31.45:219][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.16-13.31.45:219][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.16-13.31.45:219][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.16-13.31.45:219][  0]LogAnalytics: SetUserId 8a5f138b4f704bb37c44dcaf4b79d04d|0696c550c11542fd8dab8af134c02578|f68160a7-2067-4ea7-beb0-3ab86f96e82e
+[2015.06.16-13.31.45:219][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.16-13.31.45:233][  0]LogInit: Transaction tracking system initialized
+[2015.06.16-13.31.45:349][  0]BlueprintLog: New page: Editor Load
+[2015.06.16-13.31.45:376][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.06.16-13.31.45:376][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.16-13.31.45:787][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-13.31.46:093][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-13.31.46:273][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.16-13.31.46:273][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.16-13.31.46:313][  0]LogConsoleResponse:Display: 
+[2015.06.16-13.31.46:415][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.16-13.31.46:509][  0]SourceControl: Info Source control is disabled
+[2015.06.16-13.31.46:510][  0]LightingResults: New page: Lighting Build
+[2015.06.16-13.31.46:518][  0]MapCheck: New page: Map Check
+[2015.06.16-13.31.46:518][  0]LightingResults: New page: Lighting Build
+[2015.06.16-13.31.46:524][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000894DD6E980
+[2015.06.16-13.31.46:534][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-13.31.46:905][  0]LogLinker:Warning: SceneComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.06.16-13.31.46:909][  0]LogLinker:Warning: SceneComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.06.16-13.31.47:416][  0]LogLinker:Warning: SceneComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.06.16-13.31.48:116][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.16-13.31.48:123][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.16-13.31.48:124][  0]Cmd: MAP CHECKDEP
+[2015.06.16-13.31.48:124][  0]MapCheck: New page: FirstPersonExampleMap - Jun 16, 2015, 5:31:48 AM
+[2015.06.16-13.31.48:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.368ms to complete.
+[2015.06.16-13.31.48:194][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.685
+[2015.06.16-13.31.48:300][  0]LogCollectionManager: Loaded 0 collections in 0.000997 seconds
+[2015.06.16-13.31.48:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1696 classes and 261 folders.
+[2015.06.16-13.31.48:330][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.06.16-13.31.48:362][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.16-13.31.48:363][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.16-13.31.48:366][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.16-13.31.48:391][  0]LogLoad: Full Startup: 12.08 seconds (BP compile: 0.69 seconds)
+[2015.06.16-13.31.48:423][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.16-13.31.48:537][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.16-13.31.48:664][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x560 (Frame:6).
+[2015.06.16-13.31.49:123][  4]LogAssetRegistry: Asset discovery search completed in 3.7585 seconds
+[2015.06.16-13.31.56:239][247]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.06.16-13.32.34:055][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-13.32.34:055][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-13.32.37:916][688]LogSavePackage: Save=98.349007ms
+[2015.06.16-13.32.37:916][688]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonExampleMap823FFA72411586DEFC9870A0BBDBE6FC.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.06.16-13.32.37:944][688]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.243
+[2015.06.16-13.32.37:946][688]Cmd: MAP LOAD FILE="C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Maps/TestIA.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.16-13.32.37:946][688]LightingResults: New page: Lighting Build
+[2015.06.16-13.32.37:973][688]LoadErrors: New page: Loading map: TestIA.umap
+[2015.06.16-13.32.37:974][688]MapCheck: New page: Map Check
+[2015.06.16-13.32.37:974][688]LightingResults: New page: Lighting Build
+[2015.06.16-13.32.37:983][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008962A39DA0
+[2015.06.16-13.32.37:990][688]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.16-13.32.37:990][688]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-13.32.38:010][688]Cmd: MAP CHECKDEP
+[2015.06.16-13.32.38:010][688]MapCheck: New page: TestIA - Jun 16, 2015, 5:32:38 AM
+[2015.06.16-13.32.38:084][688]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.922ms to complete.
+[2015.06.16-13.32.38:084][688]LogFileHelpers: Loading map 'TestIA' took 0.140
+[2015.06.16-13.32.47:306][340]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.06.16-13.33.02:308][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.06.16-13.33.07:204][816]LogEditorViewport: Clicking on Actor (LMB): TestIACharacter_C (TestIACharacter)
+[2015.06.16-13.33.12:054][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.06.16-13.33.34:004][672]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.16-13.33.34:004][672]PIE: New page: PIE session: TestIA (Jun 16, 2015, 5:33:34 AM)
+[2015.06.16-13.33.34:008][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003232s)
+[2015.06.16-13.33.34:009][672]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2015.06.16-13.33.34:009][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.004061s)
+[2015.06.16-13.33.34:120][672]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-13.33.34:122][672]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-13.33.34:127][672]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-13.33.34:127][672]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-09.33.34
+[2015.06.16-13.33.34:128][672]LogWorld: Bringing up level for play took: 0.004975
+[2015.06.16-13.33.34:132][672]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA -0.743
+[2015.06.16-13.33.43:076][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008959EFA3E0
+[2015.06.16-13.33.48:316][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.06.16-13.33.52:390][946]Cmd: TRANSACTION UNDO
+[2015.06.16-13.33.52:390][946]LogEditorTransaction: Undo Move Actors
+[2015.06.16-13.33.55:323][131]Cmd: EDIT COPY
+[2015.06.16-13.33.55:560][142]Cmd: EDIT PASTE
+[2015.06.16-13.34.13:043][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2015.06.16-13.34.17:172][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.16-13.34.20:883][904]LogSavePackage: Save=30.232054ms
+[2015.06.16-13.34.20:883][904]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIAE766107541C6576E7D68F09156C1E2BB.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Maps/TestIA.umap'
+[2015.06.16-13.34.20:906][904]LogFileHelpers: Saving map 'TestIA' took 0.163
+[2015.06.16-13.34.23:599][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.16-13.40.30:217][441]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:13282).
+[2015.06.16-13.41.46:255][765]LogEditorTransaction: Undo Add Node
+[2015.06.16-13.41.46:279][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-13.41.46:279][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-13.41.46:279][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.16-13.45.33:194][ 63]LogSavePackage: Save=73.625549ms
+[2015.06.16-13.45.33:194][ 63]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA_Auto1CD8EBF344F5D54B30F77239CC989B072.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Maps/TestIA_Auto1.umap'
+[2015.06.16-13.45.33:201][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestIA' took 0.198
+[2015.06.16-13.45.33:201][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2015.06.16-13.45.33:234][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.06.16-13.45.33:269][ 63]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.06.16-13.45.33:269][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.06.16-13.45.33:865][ 63]LogSavePackage: Save=573.823120ms
+[2015.06.16-13.45.33:865][ 63]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonCharacter_Auto1F2C71C5B475CB01D284D16B2F6F99873.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2015.06.16-13.45.33:949][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
+[2015.06.16-13.45.33:969][ 63]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
+[2015.06.16-13.45.33:969][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
+[2015.06.16-13.45.34:531][ 63]LogSavePackage: Save=539.864075ms
+[2015.06.16-13.45.34:532][ 63]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectile_Auto12FEDA4064229ABEBBE049CB4A7463E30.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto1.uasset'
+[2015.06.16-13.45.34:604][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TestIACharacter] ([1] browsable assets)...
+[2015.06.16-13.45.34:643][ 63]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TestIACharacter.TestIACharacter]
+[2015.06.16-13.45.34:643][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TestIACharacter]
+[2015.06.16-13.45.35:135][ 63]LogSavePackage: Save=469.097809ms
+[2015.06.16-13.45.35:135][ 63]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter_Auto1005D396A45414AE579B4169613E9D2D9.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TestIACharacter_Auto1.uasset'
+[2015.06.16-13.45.35:141][ 63]LogFileHelpers: Auto-saving content packages took 1.940
+[2015.06.16-13.47.43:756][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-13.47.43:756][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-13.47.43:756][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.16-13.55.16:587][877]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-13.55.16:710][877]BlueprintEditorCompileResults: Info [1420.40] Compile of FirstPersonProjectile successful! [in 123 ms]
+[2015.06.16-13.55.18:003][  3]LogSavePackage: Save=31.491062ms
+[2015.06.16-13.55.18:003][  3]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA8400014F4831741B4DCB828F9075C5D3.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Maps/TestIA.umap'
+[2015.06.16-13.55.18:033][  3]LogFileHelpers: Saving map 'TestIA' took 0.185
+[2015.06.16-13.55.18:641][  3]LogSavePackage: Save=544.011902ms
+[2015.06.16-13.55.18:641][  3]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonCharacter31FB9DCD4DBE4EB05D097B8E6DA83700.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.06.16-13.55.19:104][  3]LogSavePackage: Save=407.831848ms
+[2015.06.16-13.55.19:104][  3]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectileB590F3BD467E7D8A5C55E4B028CDBDE3.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2015.06.16-13.55.19:556][  3]LogSavePackage: Save=397.541687ms
+[2015.06.16-13.55.19:556][  3]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter8B911ABA487A592440BCEE8DF97F4575.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/TestIACharacter.uasset'
+[2015.06.16-13.56.35:095][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-13.56.35:095][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-13.56.35:095][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.06.16-13.56.35:604][535]LogSavePackage: Save=396.315613ms
+[2015.06.16-13.56.35:604][535]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacterEE8B844848C65AEA05C30E9780281A1A.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/TestIACharacter.uasset'
+[2015.06.16-13.56.37:025][699]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-13.56.37:075][699]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-13.56.37:101][699]BlueprintEditorCompileResults: Info [1500.79] Compile of TestIACharacter successful! [in 75 ms]
+[2015.06.16-13.56.40:234][ 72]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-13.56.40:242][ 72]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-13.56.40:448][ 72]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-13.56.40:525][ 72]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-13.56.40:588][ 72]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-13.56.40:652][ 72]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-13.56.40:752][ 72]LogPlayLevel: PIE:  Blueprint regeneration took 517 ms (5 blueprints)
+[2015.06.16-13.56.40:752][ 72]PIE: New page: PIE session: TestIA (Jun 16, 2015, 5:56:40 AM)
+[2015.06.16-13.56.40:755][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002864s)
+[2015.06.16-13.56.40:756][ 72]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2015.06.16-13.56.40:756][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003715s)
+[2015.06.16-13.56.40:789][ 72]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-13.56.40:790][ 72]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-13.56.40:794][ 72]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-13.56.40:794][ 72]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-09.56.40
+[2015.06.16-13.56.40:795][ 72]LogWorld: Bringing up level for play took: 0.004282
+[2015.06.16-13.56.40:805][ 72]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA -0.07
+[2015.06.16-13.56.40:839][ 72]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:13443).
+[2015.06.16-13.56.49:427][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000890271CF40
+[2015.06.16-13.57.03:647][ 96]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-13.57.03:863][ 96]BlueprintEditorCompileResults: Info [1527.55] Compile of FirstPersonCharacter successful! [in 215 ms]
+[2015.06.16-14.01.42:153][332]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.01.42:264][332]BlueprintEditorCompileResults: Info [1805.95] Compile of FirstPersonProjectile successful! [in 110 ms]
+[2015.06.16-14.01.43:270][449]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.01.43:277][449]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.01.43:469][449]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.01.43:526][449]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.01.43:590][449]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.01.43:645][449]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.01.43:742][449]LogPlayLevel: PIE:  Blueprint regeneration took 472 ms (5 blueprints)
+[2015.06.16-14.01.43:742][449]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:01:43 AM)
+[2015.06.16-14.01.43:745][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002682s)
+[2015.06.16-14.01.43:746][449]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2015.06.16-14.01.43:746][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003458s)
+[2015.06.16-14.01.43:782][449]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.01.43:783][449]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.01.43:787][449]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.01.43:787][449]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.01.43
+[2015.06.16-14.01.43:788][449]LogWorld: Bringing up level for play took: 0.004610
+[2015.06.16-14.01.43:799][449]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.924
+[2015.06.16-14.01.49:547][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000896C2B9BC0
+[2015.06.16-14.01.50:906][902]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.01.50:913][902]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.01.51:107][902]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.01.51:179][902]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.01.51:237][902]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.01.51:304][902]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.01.51:382][902]LogPlayLevel: PIE:  Blueprint regeneration took 476 ms (5 blueprints)
+[2015.06.16-14.01.51:382][902]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:01:51 AM)
+[2015.06.16-14.01.51:385][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002579s)
+[2015.06.16-14.01.51:386][902]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2015.06.16-14.01.51:386][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003302s)
+[2015.06.16-14.01.51:420][902]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.01.51:421][902]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.01.51:425][902]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.01.51:425][902]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.01.51
+[2015.06.16-14.01.51:426][902]LogWorld: Bringing up level for play took: 0.004399
+[2015.06.16-14.01.51:438][902]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.563
+[2015.06.16-14.01.58:016][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000896C2B8220
+[2015.06.16-14.05.47:232][884]LogSavePackage: Save=30.254292ms
+[2015.06.16-14.05.47:232][884]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA_Auto215006C44422F9F38445D40B000F0E01E.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Maps/TestIA_Auto2.umap'
+[2015.06.16-14.05.47:239][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestIA' took 0.137
+[2015.06.16-14.05.47:239][884]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
+[2015.06.16-14.05.47:274][884]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
+[2015.06.16-14.05.47:301][884]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
+[2015.06.16-14.05.47:301][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
+[2015.06.16-14.05.47:808][884]LogSavePackage: Save=485.001801ms
+[2015.06.16-14.05.47:809][884]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectile_Auto27FF6AA294DB10EC5EC53BDB7499A18F4.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto2.uasset'
+[2015.06.16-14.05.47:848][884]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TestIACharacter] ([1] browsable assets)...
+[2015.06.16-14.05.47:866][884]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TestIACharacter.TestIACharacter]
+[2015.06.16-14.05.47:866][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TestIACharacter]
+[2015.06.16-14.05.48:377][884]LogSavePackage: Save=487.767426ms
+[2015.06.16-14.05.48:378][884]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter_Auto24490BDC045980FB4773D29B2AA0009B1.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TestIACharacter_Auto2.uasset'
+[2015.06.16-14.05.48:383][884]LogFileHelpers: Auto-saving content packages took 1.144
+[2015.06.16-14.09.09:945][494]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.09.10:013][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-14.09.10:013][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-14.09.10:044][494]BlueprintEditorCompileResults: Info [2253.73] Compile of TestIACharacter successful! [in 98 ms]
+[2015.06.16-14.09.16:368][241]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.09.16:478][241]BlueprintEditorCompileResults: Info [2260.17] Compile of FirstPersonProjectile successful! [in 109 ms]
+[2015.06.16-14.09.17:839][389]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.09.18:056][389]BlueprintEditorCompileResults: Info [2261.74] Compile of FirstPersonCharacter successful! [in 217 ms]
+[2015.06.16-14.09.38:610][803]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.09.38:722][803]BlueprintEditorCompileResults: Info [2282.41] Compile of FirstPersonProjectile successful! [in 111 ms]
+[2015.06.16-14.09.39:786][927]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.09.39:794][927]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.09.39:990][927]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.09.40:051][927]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.09.40:119][927]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.09.40:180][927]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.09.40:275][927]LogPlayLevel: PIE:  Blueprint regeneration took 489 ms (5 blueprints)
+[2015.06.16-14.09.40:275][927]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:09:40 AM)
+[2015.06.16-14.09.40:278][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2015.06.16-14.09.40:279][927]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2015.06.16-14.09.40:279][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003361s)
+[2015.06.16-14.09.40:313][927]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.09.40:315][927]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.09.40:319][927]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.09.40:319][927]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.09.40
+[2015.06.16-14.09.40:320][927]LogWorld: Bringing up level for play took: 0.004771
+[2015.06.16-14.09.40:332][927]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 1.456
+[2015.06.16-14.09.53:454][598]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000890B20B880
+[2015.06.16-14.11.14:481][867]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.11.14:589][867]BlueprintEditorCompileResults: Info [2378.28] Compile of FirstPersonProjectile successful! [in 108 ms]
+[2015.06.16-14.11.15:311][949]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.11.15:319][949]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.11.15:519][949]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.11.15:597][949]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.11.15:659][949]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.11.15:724][949]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.11.15:806][949]LogPlayLevel: PIE:  Blueprint regeneration took 495 ms (5 blueprints)
+[2015.06.16-14.11.15:806][949]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:11:15 AM)
+[2015.06.16-14.11.15:810][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002891s)
+[2015.06.16-14.11.15:811][949]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2015.06.16-14.11.15:811][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.004147s)
+[2015.06.16-14.11.15:848][949]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.11.15:849][949]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.11.15:854][949]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.11.15:854][949]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.11.15
+[2015.06.16-14.11.15:855][949]LogWorld: Bringing up level for play took: 0.005076
+[2015.06.16-14.11.15:866][949]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.991
+[2015.06.16-14.11.20:472][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089055C8720
+[2015.06.16-14.11.22:044][380]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.11.22:052][380]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.11.22:251][380]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.11.22:326][380]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.11.22:389][380]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.11.22:452][380]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.11.22:536][380]LogPlayLevel: PIE:  Blueprint regeneration took 492 ms (5 blueprints)
+[2015.06.16-14.11.22:536][380]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:11:22 AM)
+[2015.06.16-14.11.22:540][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002762s)
+[2015.06.16-14.11.22:540][380]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2015.06.16-14.11.22:540][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003434s)
+[2015.06.16-14.11.22:572][380]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.11.22:574][380]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.11.22:577][380]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.11.22:577][380]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.11.22
+[2015.06.16-14.11.22:578][380]LogWorld: Bringing up level for play took: 0.004322
+[2015.06.16-14.11.22:589][380]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA -0.286
+[2015.06.16-14.11.29:165][725]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089055C9760
+[2015.06.16-14.11.33:935][285]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.11.34:029][285]BlueprintEditorCompileResults: Info [2397.72] Compile of FirstPersonProjectile successful! [in 94 ms]
+[2015.06.16-14.11.35:462][453]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.11.35:470][453]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.11.35:674][453]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.11.35:750][453]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.11.35:812][453]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.11.35:876][453]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.11.35:957][453]LogPlayLevel: PIE:  Blueprint regeneration took 494 ms (5 blueprints)
+[2015.06.16-14.11.35:957][453]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:11:35 AM)
+[2015.06.16-14.11.35:960][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2015.06.16-14.11.35:961][453]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2015.06.16-14.11.35:961][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003769s)
+[2015.06.16-14.11.35:994][453]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.11.35:996][453]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.11.36:001][453]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.11.36:001][453]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.11.36
+[2015.06.16-14.11.36:002][453]LogWorld: Bringing up level for play took: 0.004771
+[2015.06.16-14.11.36:012][453]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 1.137
+[2015.06.16-14.11.40:389][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008971FAADE0
+[2015.06.16-14.11.59:789][985]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.11.59:870][985]BlueprintEditorCompileResults: Info [2423.56] Compile of TestIACharacter successful! [in 80 ms]
+[2015.06.16-14.12.10:427][ 10]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.12.10:718][ 10]BlueprintEditorCompileResults: Info [2434.41] Compile of FirstPersonProjectile successful! [in 291 ms]
+[2015.06.16-14.12.12:710][244]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.12.12:719][244]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.12.12:918][244]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.12.12:994][244]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.12.13:060][244]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.12.13:125][244]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.12.13:206][244]LogPlayLevel: PIE:  Blueprint regeneration took 494 ms (5 blueprints)
+[2015.06.16-14.12.13:206][244]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:12:13 AM)
+[2015.06.16-14.12.13:209][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002769s)
+[2015.06.16-14.12.13:210][244]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2015.06.16-14.12.13:210][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003613s)
+[2015.06.16-14.12.13:246][244]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.12.13:248][244]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.12.13:252][244]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.12.13:253][244]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.12.13
+[2015.06.16-14.12.13:253][244]LogWorld: Bringing up level for play took: 0.004649
+[2015.06.16-14.12.13:264][244]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.389
+[2015.06.16-14.12.16:853][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000897C4B2C00
+[2015.06.16-14.16.23:187][555]LogSavePackage: Save=30.986004ms
+[2015.06.16-14.16.23:188][555]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA_Auto3C6415F9D4FA71729186CB5A70AC31B9C.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Maps/TestIA_Auto3.umap'
+[2015.06.16-14.16.23:195][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestIA' took 0.159
+[2015.06.16-14.16.23:195][555]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2015.06.16-14.16.23:226][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
+[2015.06.16-14.16.23:266][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
+[2015.06.16-14.16.23:266][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
+[2015.06.16-14.16.23:770][555]LogSavePackage: Save=480.221924ms
+[2015.06.16-14.16.23:770][555]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectile_Auto38089B31944F3C0355BFB6596566660D2.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto3.uasset'
+[2015.06.16-14.16.23:809][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TestIACharacter] ([1] browsable assets)...
+[2015.06.16-14.16.23:854][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TestIACharacter.TestIACharacter]
+[2015.06.16-14.16.23:854][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TestIACharacter]
+[2015.06.16-14.16.24:380][555]LogSavePackage: Save=501.268005ms
+[2015.06.16-14.16.24:381][555]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter_Auto3F95875BC4FCF462CC72DAA91B92A2529.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TestIACharacter_Auto3.uasset'
+[2015.06.16-14.16.24:386][555]LogFileHelpers: Auto-saving content packages took 1.191
+[2015.06.16-14.28.31:380][879]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-14.28.31:381][879]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-14.28.31:407][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestIA' took 0.026
+[2015.06.16-14.28.31:440][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/TestIACharacter] ([1] browsable assets)...
+[2015.06.16-14.28.31:450][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TestIACharacter]
+[2015.06.16-14.28.31:643][879]LogSavePackage: Save=118.104424ms
+[2015.06.16-14.28.31:643][879]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter_Auto4471CE3D34395F8F1D999C0ADF7872538.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TestIACharacter_Auto4.uasset'
+[2015.06.16-14.28.31:650][879]LogFileHelpers: Auto-saving content packages took 0.243
+[2015.06.16-14.29.28:182][ 95]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.29.28:294][ 95]BlueprintEditorCompileResults: Info [3471.98] Compile of FirstPersonProjectile successful! [in 112 ms]
+[2015.06.16-14.29.29:773][254]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.29.29:995][254]BlueprintEditorCompileResults: Info [3473.68] Compile of FirstPersonCharacter successful! [in 222 ms]
+[2015.06.16-14.29.31:182][387]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.29.31:262][387]BlueprintEditorCompileResults: Info [3474.95] Compile of TestIACharacter successful! [in 79 ms]
+[2015.06.16-14.29.32:282][505]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.29.32:288][505]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.29.32:378][505]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.29.32:437][505]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.29.32:499][505]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.29.32:693][505]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.29.32:777][505]LogPlayLevel: PIE:  Blueprint regeneration took 494 ms (5 blueprints)
+[2015.06.16-14.29.32:777][505]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:29:32 AM)
+[2015.06.16-14.29.32:781][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003403s)
+[2015.06.16-14.29.32:782][505]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2015.06.16-14.29.32:782][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.004563s)
+[2015.06.16-14.29.32:815][505]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.29.32:817][505]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.29.32:820][505]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.29.32:820][505]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.29.32
+[2015.06.16-14.29.32:821][505]LogWorld: Bringing up level for play took: 0.004289
+[2015.06.16-14.29.32:836][505]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA -0.039
+[2015.06.16-14.29.36:869][710]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000896EB6BCE0
+[2015.06.16-14.30.55:548][576]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.30.55:662][576]BlueprintEditorCompileResults: Info [3559.35] Compile of FirstPersonProjectile successful! [in 113 ms]
+[2015.06.16-14.30.58:197][865]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.30.58:418][865]BlueprintEditorCompileResults: Info [3562.11] Compile of FirstPersonCharacter successful! [in 220 ms]
+[2015.06.16-14.30.59:588][995]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.30.59:675][995]BlueprintEditorCompileResults: Info [3563.36] Compile of TestIACharacter successful! [in 86 ms]
+[2015.06.16-14.31.00:422][ 79]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.31.00:428][ 79]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.31.00:516][ 79]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.31.00:572][ 79]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.31.00:634][ 79]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.31.00:822][ 79]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.31.00:912][ 79]LogPlayLevel: PIE:  Blueprint regeneration took 490 ms (5 blueprints)
+[2015.06.16-14.31.00:912][ 79]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:31:00 AM)
+[2015.06.16-14.31.00:915][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002759s)
+[2015.06.16-14.31.00:916][ 79]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2015.06.16-14.31.00:916][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.004019s)
+[2015.06.16-14.31.00:948][ 79]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.31.00:950][ 79]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.31.00:954][ 79]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.31.00:955][ 79]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.31.00
+[2015.06.16-14.31.00:956][ 79]LogWorld: Bringing up level for play took: 0.004705
+[2015.06.16-14.31.00:967][ 79]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.092
+[2015.06.16-14.31.03:440][213]LogCharacterMovement: TestIACharacter_C_1 is stuck and failed to move!
+[2015.06.16-14.31.04:750][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000890EF97CE0
+[2015.06.16-14.31.19:282][981]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.31.19:374][981]BlueprintEditorCompileResults: Info [3583.06] Compile of TestIACharacter successful! [in 91 ms]
+[2015.06.16-14.31.21:181][191]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.31.21:294][191]BlueprintEditorCompileResults: Info [3584.98] Compile of FirstPersonProjectile successful! [in 112 ms]
+[2015.06.16-14.31.22:042][276]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.31.22:050][276]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.31.22:241][276]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.31.22:299][276]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.31.22:357][276]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.31.22:433][276]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.31.22:520][276]LogPlayLevel: PIE:  Blueprint regeneration took 478 ms (5 blueprints)
+[2015.06.16-14.31.22:521][276]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:31:22 AM)
+[2015.06.16-14.31.22:523][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002400s)
+[2015.06.16-14.31.22:524][276]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.06.16-14.31.22:524][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003173s)
+[2015.06.16-14.31.22:556][276]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.31.22:558][276]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.31.22:562][276]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.31.22:562][276]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.31.22
+[2015.06.16-14.31.22:563][276]LogWorld: Bringing up level for play took: 0.004525
+[2015.06.16-14.31.22:574][276]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA -0.302
+[2015.06.16-14.31.26:183][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000890B1D4E00
+[2015.06.16-14.33.56:711][810]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.33.56:829][810]BlueprintEditorCompileResults: Info [3740.52] Compile of FirstPersonProjectile successful! [in 118 ms]
+[2015.06.16-14.34.36:516][  5]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.34.36:633][  5]BlueprintEditorCompileResults: Info [3780.32] Compile of FirstPersonProjectile successful! [in 117 ms]
+[2015.06.16-14.34.42:632][665]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.34.42:855][665]BlueprintEditorCompileResults: Info [3786.54] Compile of FirstPersonCharacter successful! [in 222 ms]
+[2015.06.16-14.35.54:264][ 75]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.35.54:384][ 75]BlueprintEditorCompileResults: Info [3858.07] Compile of FirstPersonProjectile successful! [in 120 ms]
+[2015.06.16-14.35.56:662][329]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.35.56:751][329]BlueprintEditorCompileResults: Info [3860.44] Compile of TestIACharacter successful! [in 88 ms]
+[2015.06.16-14.35.57:730][436]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.35.57:950][436]BlueprintEditorCompileResults: Info [3861.64] Compile of FirstPersonCharacter successful! [in 220 ms]
+[2015.06.16-14.36.01:305][826]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.36.01:311][826]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.36.01:411][826]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.36.01:474][826]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.36.01:543][826]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.36.01:605][826]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.36.01:814][826]LogPlayLevel: PIE:  Blueprint regeneration took 508 ms (5 blueprints)
+[2015.06.16-14.36.01:814][826]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:36:01 AM)
+[2015.06.16-14.36.01:817][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002605s)
+[2015.06.16-14.36.01:818][826]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2015.06.16-14.36.01:818][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003723s)
+[2015.06.16-14.36.01:855][826]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.36.01:857][826]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.36.01:861][826]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.36.01:861][826]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.36.01
+[2015.06.16-14.36.01:862][826]LogWorld: Bringing up level for play took: 0.004741
+[2015.06.16-14.36.01:872][826]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.997
+[2015.06.16-14.36.05:663][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000897836FA60
+[2015.06.16-14.36.15:041][892]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.36.15:356][892]BlueprintEditorCompileResults: Info [3879.04] Compile of FirstPersonProjectile successful! [in 315 ms]
+[2015.06.16-14.36.18:281][180]LogSavePackage: Save=415.552277ms
+[2015.06.16-14.36.18:281][180]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectile442A99A84C4A1BC3FA2461A377A7D706.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2015.06.16-14.36.19:595][314]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.36.19:771][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-14.36.19:816][314]BlueprintEditorCompileResults: Info [3883.50] Compile of FirstPersonCharacter successful! [in 220 ms]
+[2015.06.16-14.36.21:074][452]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.36.21:162][452]BlueprintEditorCompileResults: Info [3884.85] Compile of TestIACharacter successful! [in 87 ms]
+[2015.06.16-14.36.22:900][649]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.36.22:905][649]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.36.23:003][649]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.36.23:067][649]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.36.23:128][649]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.36.23:321][649]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.36.23:417][649]LogPlayLevel: PIE:  Blueprint regeneration took 517 ms (5 blueprints)
+[2015.06.16-14.36.23:417][649]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:36:23 AM)
+[2015.06.16-14.36.23:420][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002501s)
+[2015.06.16-14.36.23:421][649]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2015.06.16-14.36.23:421][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003355s)
+[2015.06.16-14.36.23:457][649]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.36.23:459][649]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.36.23:463][649]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.36.23:463][649]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.36.23
+[2015.06.16-14.36.23:464][649]LogWorld: Bringing up level for play took: 0.004458
+[2015.06.16-14.36.23:475][649]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.6
+[2015.06.16-14.36.26:128][794]LogCharacterMovement: TestIACharacter_C_1 is stuck and failed to move!
+[2015.06.16-14.36.27:324][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008914D27BA0
+[2015.06.16-14.38.22:132][787]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.38.22:231][787]BlueprintEditorCompileResults: Info [4005.92] Compile of TestIACharacter successful! [in 98 ms]
+[2015.06.16-14.38.30:149][699]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.06.16-14.38.30:273][699]BlueprintEditorCompileResults: Info [4013.96] Compile of FirstPersonProjectile successful! [in 123 ms]
+[2015.06.16-14.38.31:732][849]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.16-14.38.31:952][849]BlueprintEditorCompileResults: Info [4015.64] Compile of FirstPersonCharacter successful! [in 219 ms]
+[2015.06.16-14.38.32:859][947]BlueprintLog: New page: Compile TestIACharacter
+[2015.06.16-14.38.32:942][947]BlueprintEditorCompileResults: Info [4016.63] Compile of TestIACharacter successful! [in 83 ms]
+[2015.06.16-14.38.33:631][ 26]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.38.33:636][ 26]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.38.33:731][ 26]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.38.33:793][ 26]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.38.33:855][ 26]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.38.34:047][ 26]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.38.34:133][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 502 ms (5 blueprints)
+[2015.06.16-14.38.34:134][ 26]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:38:34 AM)
+[2015.06.16-14.38.34:137][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002971s)
+[2015.06.16-14.38.34:138][ 26]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2015.06.16-14.38.34:138][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003770s)
+[2015.06.16-14.38.34:174][ 26]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.38.34:175][ 26]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.38.34:179][ 26]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.38.34:179][ 26]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.38.34
+[2015.06.16-14.38.34:180][ 26]LogWorld: Bringing up level for play took: 0.004474
+[2015.06.16-14.38.34:191][ 26]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 1.316
+[2015.06.16-14.38.45:353][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008957413060
+[2015.06.16-14.38.46:529][731]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.16-14.38.46:534][731]LogPlayLevel: [PIE] Compiling FirstPersonProjectile before PIE...
+[2015.06.16-14.38.46:615][731]LogPlayLevel: [PIE] Compiling BP_ArrowPickUp before PIE...
+[2015.06.16-14.38.46:675][731]LogPlayLevel: [PIE] Compiling VieTest before PIE...
+[2015.06.16-14.38.46:739][731]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.06.16-14.38.46:927][731]LogPlayLevel: [PIE] Compiling TestIACharacter before PIE...
+[2015.06.16-14.38.47:014][731]LogPlayLevel: PIE:  Blueprint regeneration took 485 ms (5 blueprints)
+[2015.06.16-14.38.47:014][731]PIE: New page: PIE session: TestIA (Jun 16, 2015, 6:38:47 AM)
+[2015.06.16-14.38.47:017][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2015.06.16-14.38.47:018][731]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2015.06.16-14.38.47:018][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestIA.TestIA to /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA (0.003480s)
+[2015.06.16-14.38.47:049][731]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.16-14.38.47:051][731]LogAIModule: Creating AISystem for world TestIA
+[2015.06.16-14.38.47:056][731]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.16-14.38.47:056][731]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA.TestIA up for play (max tick rate 0) at 2015.06.16-10.38.47
+[2015.06.16-14.38.47:057][731]LogWorld: Bringing up level for play took: 0.004611
+[2015.06.16-14.38.47:067][731]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestIA 0.192
+[2015.06.16-14.38.52:017][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000890B24CAE0
+[2015.06.16-14.39.17:242][130]LogSavePackage: Save=30.217085ms
+[2015.06.16-14.39.17:242][130]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA_Auto5ED23F0BE43FD7E973903B2B59DBABD31.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Maps/TestIA_Auto5.umap'
+[2015.06.16-14.39.17:250][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestIA' took 0.138
+[2015.06.16-14.39.17:250][130]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2015.06.16-14.39.17:281][130]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
+[2015.06.16-14.39.17:309][130]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
+[2015.06.16-14.39.17:309][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
+[2015.06.16-14.39.18:085][130]LogSavePackage: Save=484.349609ms
+[2015.06.16-14.39.18:086][130]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectile_Auto5BA852D00444FE7E33452BDBEB53B4663.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto5.uasset'
+[2015.06.16-14.39.18:122][130]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TestIACharacter] ([1] browsable assets)...
+[2015.06.16-14.39.18:142][130]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TestIACharacter.TestIACharacter]
+[2015.06.16-14.39.18:142][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TestIACharacter]
+[2015.06.16-14.39.18:667][130]LogSavePackage: Save=499.513336ms
+[2015.06.16-14.39.18:667][130]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacter_Auto55553E6354F573FCD383FBE83B2B74A7D.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TestIACharacter_Auto5.uasset'
+[2015.06.16-14.39.18:674][130]LogFileHelpers: Auto-saving content packages took 1.423
+[2015.06.16-14.39.20:313][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-14.39.20:314][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-14.39.20:537][282]LogSavePackage: Save=30.955641ms
+[2015.06.16-14.39.20:537][282]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIA838FA6594636FCEB8B44DF9B724BDCE3.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Maps/TestIA.umap'
+[2015.06.16-14.39.20:576][282]LogFileHelpers: Saving map 'TestIA' took 0.191
+[2015.06.16-14.39.20:652][282]LogSavePackage: Save=52.593159ms
+[2015.06.16-14.39.20:652][282]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/FirstPersonProjectileFCC66BC949ADA5D34561CCBC67EB3E27.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2015.06.16-14.39.20:723][282]LogSavePackage: Save=43.009460ms
+[2015.06.16-14.39.20:723][282]LogSavePackage: Moving 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Saved/TestIACharacterA854CF2F44FDE8BAF309CE9F11EB1BAE.tmp' to 'C:/Users/Tarek/Documents/1) Isart/GD2/Level Design/Unreal/Arrow Shooter/Share/UDK_Project/Content/FirstPersonBP/Blueprints/TestIACharacter.uasset'
+[2015.06.16-14.39.25:743][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.16-14.39.27:741][667]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.16-14.39.28:364][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.16-14.40.01:811][910]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.06.16-14.40.04:159][  8]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.06.16-14.41.36:807][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.16-14.41.36:808][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.06.16-14.41.36:808][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.06.16-14.41.37:347][878]Cmd: QUIT_EDITOR
+[2015.06.16-14.41.37:552][878]LogExit: Preparing to exit.
+[2015.06.16-14.41.38:485][878]LogExit: Editor shut down
+[2015.06.16-14.41.38:486][878]LogExit: Transaction tracking system shut down
+[2015.06.16-14.41.38:488][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008962B7A0C0
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089623DD8A0
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089623DD6C0
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000896860B060
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008955D96160
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008959D21D00
+[2015.06.16-14.41.38:489][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000895A245800
+[2015.06.16-14.41.38:490][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000896EB68A40
+[2015.06.16-14.41.38:490][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008970C5DF80
+[2015.06.16-14.41.38:557][878]LogExit: Object subsystem successfully closed.
+[2015.06.16-14.41.38:604][878]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.16-14.41.38:604][878]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.16-14.41.38:605][878]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.16-14.41.39:099][878]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.16-14.41.39:136][878]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.16-14.41.39:136][878]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.16-14.41.39:136][878]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.16-14.41.39:137][878]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.16-14.41.39:341][878]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.16-14.41.39:342][878]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.16-14.41.39:343][878]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.16-14.41.39:343][878]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.16-14.41.39:343][878]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.16-14.41.39:443][878]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.16-14.41.39:443][878]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.16-14.41.39:445][878]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.16-14.41.39:449][878]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.16-14.41.39:495][878]LogDerivedDataCache: Shutdown
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.16-14.41.39:495][878]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.16-14.41.39:504][878]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.16-14.41.39:505][878]LogExit: Exiting.
+[2015.06.16-14.41.39:509][878]Log file closed, 06/16/15 10:41:39
